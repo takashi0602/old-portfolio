@@ -2,6 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c180b784-5dc5-432e-85e9-03e21282833d/deploy-status)](https://app.netlify.com/sites/takashi-portfolio/deploys)
 
+## Netlify
+https://takashi-portfolio.netlify.com/
+
 ## Build Setup
 
 ``` bash
