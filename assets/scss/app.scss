@@ -1,3 +1,6 @@
+// bootstrap
+@import "~~/node_modules/bootstrap/scss/bootstrap.scss";
+
 // foundation
 @import "foundation/variable";
 @import "foundation/mixin";
@@ -6,3 +9,5 @@
 // object
 // component
 @import "object/component/container";
+@import "object/component/title";
+@import "object/component/image";

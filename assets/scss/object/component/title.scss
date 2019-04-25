@@ -1,0 +1,22 @@
+.c-title {
+  font-size: 1.5rem;
+  @include desktop() {
+    font-size: 2rem;
+  }
+}
+
+.c-subTitle {
+  font-size: 1rem;
+  border-bottom: 3px dashed $green;
+  padding-bottom: 10px;
+  @include desktop() {
+    font-size: 1.5rem;
+  }
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: $green;
+  }
+}
