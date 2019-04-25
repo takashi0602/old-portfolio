@@ -10,17 +10,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    lists: {
-      type: Array,
-      default: []
-    }
-  }
-}
-</script>
-
 <style lang="scss" scoped>
 @import "~/assets/scss/foundation/mixin.scss";
 @import "~/assets/scss/foundation/variable.scss";
