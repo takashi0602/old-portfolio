@@ -23,6 +23,7 @@
 
 <script>
 import profileList from "~/components/profileList"
+
 export default {
   layouts: "default",
   components: {
@@ -51,6 +52,10 @@ export default {
           name: "資格",
           detail: "基本情報技術者試験"
         },
+        {
+          name: "技術",
+          detail: "JavaScript, Vue.js, Nuxt.js, PHP, Laravel"
+        }
       ]
     }
   }
@@ -60,10 +65,6 @@ export default {
 <style lang="scss" scoped>
 @import "~/assets/scss/foundation/mixin.scss";
 @import "~/assets/scss/foundation/variable.scss";
-
-.c-container {
-  padding-top: 30px;
-}
 
 .c-image {
   width: 200px;
@@ -106,12 +107,5 @@ export default {
 
 .c-subTitle {
   margin-bottom: 15px;
-  &:before {
-    content: "";
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: $green;
-  }
 }
 </style>
