@@ -1,7 +1,7 @@
 <template>
   <div>
     <profile-header />
-    <nuxt />
+    <nuxt class="m-padding__top" />
   </div>
 </template>
 
@@ -13,3 +13,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.m-padding__top {
+  padding-top: 80px;
+}
+</style>
