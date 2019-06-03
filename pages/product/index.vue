@@ -25,16 +25,19 @@ export default {
           name: "Bookshelf",
           detail: "本を管理するためのアプリ",
           img: bookshelf,
+          url: "https://b00kshe1f.herokuapp.com/"
         },
         {
           name: "chat mammoth",
           detail: "チャットを楽しむアプリ",
           img: chatMammoth,
+          url: "https://chat-mammoth.herokuapp.com/"
         },
         {
           name: "gour.me",
           detail: "あなたに合ったグルメをレコメンドするアプリ",
           img: gourMe,
+          url: "https://trusting-wescoff-c50237.netlify.com/"
         }
       ]
     }
