@@ -5,7 +5,7 @@
         <div class="c-product__name">{{ item.name }}</div>
         <div class="c-product__detail">{{ item.detail }}</div>
         <a :href="item.url" class="c-product__link" target="_blank">
-          <div class="c-product__img c-image" :style="`background-image: url(${item.img})`" ></div>
+          <img :src="item.img" class="c-product__img c-image">
         </a>
       </div>
     </div>
@@ -53,16 +53,11 @@ export default {
     cursor: pointer;
   }
   &__img {
-    width: 75%;
-    height: 200px;
+    width: 100%;
     background-position: center center;
     border: 5px solid $green;
     border-radius: 20px;
     margin: 0 auto 20px auto;
-    @include desktop() {
-      width: 100%;
-      height: 400px;
-    }
   }
 }
 </style>
