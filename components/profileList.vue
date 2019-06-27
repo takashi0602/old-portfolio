@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-for="(item, index) in lists" :key="index">
-      <div class="c-profile row">
+      <div class="c-profile row align-items-center">
         <span class="col-4">{{ item.name }}</span>
         <span class="col-8">{{ item.detail }}</span>
       </div>
