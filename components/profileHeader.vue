@@ -54,7 +54,7 @@ export default {
 
 .h {
   &-boxShadow {
-    box-shadow: 0 3px 1px -1px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 1px -2px rgba(0,0,0,0.1);
   }
   &-header {
     position: fixed;

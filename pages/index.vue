@@ -13,7 +13,8 @@
         中学生の時にドラマの影響でIT業界に興味を持ち始め、情報系の高校へ進学。<br>
         高校の卒業課題でUnityを使用し、2D格闘ゲームを作成するも、データ紛失。<br>
         セキュリティに興味を持ち、IT系の専門学校へ進学。<br>
-        進学するも、Web業界へ興味を持ち、Web制作会社でアルバイトを始める。
+        進学先でWebへ興味を持ち、Web制作会社でアルバイトを始める。<br>
+        スマホアプリのハッカソンで最優秀賞に選ばれ、スマホアプリ開発に興味を持つ。<br>
       </p>
       <h3 class="c-subTitle">プロフィール</h3>
       <profile-list :lists="lists" class="mb-5" />
@@ -42,7 +43,7 @@ export default {
         },
         {
           name: "趣味",
-          detail: "音楽を聴く, ギター"
+          detail: "音楽を聴く, アコギを弾く"
         },
         {
           name: "好きな食べ物",
@@ -84,7 +85,7 @@ export default {
   text-align: center;
   font-size: 1.5rem;
   background: $green;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 50px auto;
   @include desktop() {
     width: 50%;
     font-size: 1.8rem;
@@ -99,6 +100,7 @@ export default {
     text-align: center;
     font-size: 0.8rem;
     margin-bottom: 50px;
+    line-height: 1.7;
     @include desktop() {
       font-size: 1rem;
     }
