@@ -9,7 +9,7 @@
             <nuxt-link to="/product" class="h-pcMenu__link">作品</nuxt-link>
           </div>
           <div class="h-spMenu col-auto">
-            <i class="material-icons" @click="clickMenu">{{ iconName }}</i>
+            <i class="fas" :class="{ 'fa-times': isActive, 'fa-bars': !isActive }" @click="clickMenu()"></i>
           </div>
         </div>
       </div>
@@ -26,18 +26,17 @@ export default {
   data() {
     return {
       toggleMenu: false,
-      iconName: "menu"
+      isActive: false
     }
   },
   methods: {
     clickMenu() {
       this.toggleMenu = !this.toggleMenu
-      this.iconName = this.iconName === "menu" ? "close" : "menu"
+      this.isActive = !this.isActive
     },
     clickLink() {
-      console.log("hoge")
       this.toggleMenu = false
-      this.iconName = this.iconName === "menu" ? "close" : "menu"
+      this.isActive = false
     }
   }
 }
