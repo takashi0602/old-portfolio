@@ -17,7 +17,18 @@
         スマホアプリのハッカソンで最優秀賞に選ばれ、スマホアプリ開発に興味を持つ。<br>
       </p>
       <h3 class="c-subTitle">プロフィール</h3>
-      <profile-list :lists="lists" class="mb-5" />
+      <profile-list :lists="lists" />
+      <div class="text-center mb-4">
+        <a href="https://www.facebook.com/profile.php?id=100023231493025" target="_blank" class="px-2">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/takashimelon" target="_blank" class="px-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://github.com/takashi0602" target="_blank" class="px-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -109,5 +120,33 @@ export default {
 
 .c-subTitle {
   margin-bottom: 15px;
+}
+
+.fab {
+  font-size: 1.5rem;
+  @include desktop() {
+    font-size: 1.8rem;
+  }
+}
+
+.fa {
+  &-facebook {
+    color: #4367B2;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  &-twitter {
+    color: #1EA0F2;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  &-github {
+    color: #24292E;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
 }
 </style>
