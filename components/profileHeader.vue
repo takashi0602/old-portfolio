@@ -9,7 +9,7 @@
             <nuxt-link to="/product" class="h-pcMenu__link">作品</nuxt-link>
           </div>
           <div class="h-spMenu col-auto">
-            <i class="fas" :class="{ 'fa-times': isActive, 'fa-bars': !isActive }" @click="clickMenu()"></i>
+            <i class="fas" :class="{ 'fa-times': isActive, 'fa-bars': !isActive }" @click="clickMenu"></i>
           </div>
         </div>
       </div>
