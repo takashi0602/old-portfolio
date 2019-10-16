@@ -9,11 +9,6 @@
 
 <script>
 import productList from "~/components/productList"
-import bookshelf from "~/assets/images/bookshelf.png"
-import chatMammoth from "~/assets/images/chat-mammoth.png"
-import gourMe from "~/assets/images/gour-me.png"
-import windsServo2018 from "~/assets/images/winds-servo-2018.png"
-import xen from "~/assets/images/xen.png"
 
 export default {
   layouts: "default",
@@ -26,32 +21,44 @@ export default {
         {
           name: "Bookshelf",
           detail: "本を管理するためのアプリ",
-          img: bookshelf,
+          img: require("~/assets/images/bookshelf.png"),
           url: "https://b00kshe1f.herokuapp.com/"
         },
         {
           name: "chat mammoth",
           detail: "チャットを楽しむアプリ",
-          img: chatMammoth,
+          img: require("~/assets/images/chat-mammoth.png"),
           url: "https://chat-mammoth.herokuapp.com/"
         },
         {
           name: "Winds Servo 2018 Summer Edition",
           detail: "うちわを自動で扇いでくれるシステム",
-          img: windsServo2018,
+          img: require("~/assets/images/winds-servo-2018.png"),
           url: "https://github.com/tyokinuhata/winds-servo"
         },
         {
           name: "gour.me",
           detail: "あなたに合ったグルメをレコメンドするアプリ",
-          img: gourMe,
+          img: require("~/assets/images/gour-me.png"),
           url: "https://trusting-wescoff-c50237.netlify.com/"
         },
         {
           name: "Xen",
           detail: "座禅アプリ",
-          img: xen,
+          img: require("~/assets/images/xen.png"),
           url: "https://tyokinuhata.github.io/xen/"
+        },
+        {
+          name: "Duel",
+          detail: "喧嘩和解カードバトル",
+          img: require("~/assets/images/duel.png"),
+          url: "https://uyupun.github.io/duel/"
+        },
+        {
+          name: "TAKACSS",
+          detail: "CSS/CSSアニメーションまとめサイト",
+          img: require("~/assets/images/dice.gif"),
+          url: "https://takashi0602.github.io/takacss/"
         }
       ]
     }
